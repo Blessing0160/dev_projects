@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouValue",
+  "version": "1.0",
+  "description": "Track YouTube time and show money lost in the sidebar ad space.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
