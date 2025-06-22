@@ -9,3 +9,14 @@
   border-radius: 10px;
   margin-bottom: 16px;
 }
+
+.youvalue-money {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.youvalue-sub {
+  font-size: 12px;
+  opacity: 0.7;
+}
